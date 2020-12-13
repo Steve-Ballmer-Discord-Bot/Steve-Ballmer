@@ -1,10 +1,10 @@
 {
-  "name": "discordjs-v12Bot",
-  "version": "1.0.0",
+  "name": "steve ballmer",
+  "version": "1.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
