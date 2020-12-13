@@ -1,0 +1,21 @@
+{
+  "name": "discordjs-v12Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "beautify": "0.0.8",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "memejs": "^1.2.3",
+    "ms": "^2.1.2",
+    "puppeteer": "^5.5.0"
+  }
+}

@@ -1,0 +1,144 @@
+.flex-container {
+  display: flex;
+
+  justify-content: center;
+  align-content: space-between;
+}
+
+#reports {
+  width: 49%;
+  height: 75vh;
+
+  padding: 1%;
+
+  overflow-y: auto;
+}
+
+.report {
+    text-align: center !important;
+    background: #AD91FF !important;
+    padding: 60px 50px !important;
+    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+
+.report-header {
+  height: 20px;
+}
+
+.report-author {
+  float: left;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  line-height: 19px;
+}
+
+.report-date {
+  float: right;
+
+  padding: 2px;
+
+  font-size: 12px;
+  font-weight: 500;
+
+  line-height: 19px;
+}
+
+.report-content {
+  font-size: 16px;
+
+  font-weight: normal;
+  line-height: 22px;
+}
+
+#patchnotes {
+  width: 49%;
+  height: 75vh;
+
+  padding: 1%;
+
+  overflow-y: auto;
+}
+
+.note {
+      text-align: center !important;
+    background: #AD91FF !important;
+    padding: 60px 50px !important;
+    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+
+.note-title {
+  padding: 4px 0;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  line-height: 19px;
+}
+
+.note-content {
+  font-size: 16px;
+
+  font-weight: normal;
+  line-height: 22px;
+}
+
+/* Admin Login */
+
+#login {
+  width: 25%;
+  height: 50px;
+
+  padding: 5px;
+
+  background-color: rgba(199, 195, 195, 0.884);
+  box-shadow: 3px 1px 5px 1.4px gray;
+
+  margin-bottom: 15px;
+}
+
+#login input {
+  display: block;
+
+  width: 80%;
+  height: 13px;
+  padding: 3px;
+
+  border: solid 1px gray;
+  border-radius: 3px;
+
+  outline: none;
+
+  margin: auto;
+}
+
+#login input:focus {
+  box-shadow: 0 0 4px 2px rgba(28, 170, 226, 0.767);
+}
+
+#login div {
+  text-align: center;
+
+  padding: 5px 0;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.reportsUI {
+  display: none;
+}
+
+.notesUI {
+  display: none;
+}
+
+/* Admin Config */
+
