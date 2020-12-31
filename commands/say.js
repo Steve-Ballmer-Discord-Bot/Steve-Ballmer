@@ -10,9 +10,9 @@ module.exports = {
 	cooldown: 3,
 	run(client, message, args) {
 
-let repeat = args.join(" ");
+let text = args.join(" ");
   
-if(!repeat) return message.channel.send(`Input text`);
+if(!text) return message.channel.send(`Input text`);
 
 message.channel.send(args.join(" "));
   message.delete();  

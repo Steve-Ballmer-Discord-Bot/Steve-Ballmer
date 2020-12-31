@@ -15,9 +15,12 @@ const env = require('dotenv')
 const fs = require('fs');
 const ms = require("ms");
 const Discord = require('discord.js');
+
 const client = new Discord.Client({
 	disableMentions: 'all',
 });
+const { Slash } = require('discord-slash-commands');
+const slash = new Slash(client);
 
 client.commands = new Discord.Collection();
 cooldowns = new Discord.Collection();
@@ -100,6 +103,27 @@ client.on('message', async(message) => {
 	} catch (error) {
 		message.channel.send(`There was an error whilst executing that command: \`${error}\``)
 	}
+});
+
+client.on("ready", () => {
+    slash.command({
+        guildOnly: false,
+        data: {
+            name: "invite",
+            description: "Sends the invite link",
+            type: 4,
+            content: `[Invite the bot](https://steve.roboticobsession.tk/invite)`
+        }
+    })
+    slash.command({
+        guildOnly: false,
+        data: {
+            name: "ping",
+            description: "Sends information of the bot response",
+            type: 4,
+            content: `Pong! \`${client.ws.ping}ms\``
+        }
+    })
 });
 
 client.login(token);

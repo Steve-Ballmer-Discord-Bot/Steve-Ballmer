@@ -3,7 +3,7 @@ const beautify = require("beautify")
 
 module.exports = {
 	name: 'eval',
-	aliases: ['eval'],
+	aliases: ['e'],
 	description: "Get a list of commands",
 	usage: '<commandName>',
 	devOnly: true,
