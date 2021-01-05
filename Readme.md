@@ -6,6 +6,9 @@
 - Open a terminal and type `git clone https://github.com/Steve-Ballmer-Discord-Bot/Steve-Ballmer`
 ### Enter the folder
 - In the same terminal type `cd Steve-Ballmer`
+### Config the bot
+- Create a file called `.env` and copy the `.env.md` text into the file
+- The just type the configuration for the bot
 ### Install dependencies
 - Type `npm i`
 ### Start the bot
