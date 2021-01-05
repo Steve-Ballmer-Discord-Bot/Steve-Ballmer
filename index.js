@@ -32,9 +32,7 @@ for (const file of commandFiles) {
 };
 
 token = process.env.Token;
-if (!token) throw new Error('There must be a token inside the .env file! Make sure that you have created a .env file and defined the token variable with the correct bot token!')
 client.prefix = process.env.Prefix;
-if (!client.prefix) throw new Error('Prefix must be defined in the .env file')
 client.devs = [process.env.Owner_ID];
 colors = {
 	red: '#da0000',
